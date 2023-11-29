@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="customer.css">
+    <title>Customer Form</title>
+</head>
+<body>
+    <section class="customer-form">
+        <h2>Customer Information</h2>
+        <form id="customerForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="idNumber">I.D NO:</label>
+            <input type="text" id="idNumber" name="idNumber" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="erfNumber">ERF NO:</label>
+            <input type="text" id="erfNumber" name="erfNumber" required>
+
+            <label for="witness1">Witness 1:</label>
+            <input type="text" id="witness1" name="witness1" required>
+
+            <label for="witness2">Witness 2:</label>
+            <input type="text" id="witness2" name="witness2" required>
+
+            <label for="witness3">Witness 3:</label>
+            <input type="text" id="witness3" name="witness3" required>
+
+            <label for="employed">Are you Employed?</label>
+            <select id="employed" name="employed">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="employmentLocation">If Yes, where?</label>
+            <input type="text" id="employmentLocation" name="employmentLocation">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
